@@ -1,0 +1,83 @@
+{
+  "common": {
+    "signIn": "Anmelden",
+    "signOut": "Abmelden",
+    "home": "Startseite",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "createAccount": "Konto erstellen",
+    "forgotPassword": "Passwort vergessen?",
+    "backToHome": "Zurück zur Startseite",
+    "loading": "Laden...",
+    "error": "Fehler",
+    "success": "Erfolg",
+    "copy": "Kopieren",
+    "copied": "Kopiert!",
+    "clear": "Alles löschen",
+    "support": "Brauchen Sie Hilfe? Kontaktieren Sie uns unter",
+    "copyright": "© 2025 Novalycs Inc. Alle Rechte vorbehalten."
+  },
+  "landing": {
+    "title": "Transformieren Sie Ihr Schreiben mit KI-gestützter Intelligenz",
+    "subtitle": "Verbessern Sie Ihre Texte und erstellen Sie perfekte E-Mail-Antworten mit unserem fortschrittlichen KI-Assistenten. Erleben Sie die Zukunft der professionellen Kommunikation.",
+    "features": {
+      "textEnhancement": {
+        "title": "Textverbesserung",
+        "description": "Verfeinern Sie Ihr Schreiben mit KI-gestützten Vorschlägen, die Klarheit, Grammatik und Stil verbessern und dabei Ihre einzigartige Stimme bewahren."
+      },
+      "emailResponse": {
+        "title": "Intelligente E-Mail-Antworten",
+        "description": "Generieren Sie professionelle E-Mail-Antworten in Sekunden. Perfekt für Geschäftskommunikation und Kundenservice."
+      }
+    },
+    "requestAccess": {
+      "title": "Frühzeitigen Zugang anfordern",
+      "placeholder": "Geben Sie Ihre E-Mail-Adresse ein",
+      "button": "Zugang anfordern",
+      "success": "Anfrage gesendet! Wir melden uns bald bei Ihnen."
+    }
+  },
+  "dashboard": {
+    "title": "ClearCom KI-Agent",
+    "tabs": {
+      "enhance": "Textverbesserung",
+      "email": "E-Mail-Antwort"
+    },
+    "tone": {
+      "label": "Ton auswählen",
+      "formal": "Formell",
+      "semiFormal": "Halbformell",
+      "informal": "Informell"
+    },
+    "textEnhancement": {
+      "input": {
+        "label": "Ihr Text",
+        "placeholder": "Geben Sie hier Ihren Text ein, um Grammatik und Flüssigkeit zu verbessern..."
+      },
+      "output": {
+        "label": "Verbesserter Text"
+      },
+      "button": {
+        "enhance": "Text verbessern",
+        "enhancing": "Verbessern..."
+      }
+    },
+    "emailResponse": {
+      "original": {
+        "label": "Original E-Mail",
+        "placeholder": "Fügen Sie die E-Mail ein, auf die Sie antworten möchten..."
+      },
+      "draft": {
+        "label": "Ihre Entwurfspunkte/Ideen",
+        "placeholder": "Geben Sie Ihre Punkte oder Ideen für die Antwort ein..."
+      },
+      "response": {
+        "label": "Antwort"
+      },
+      "button": {
+        "generate": "Antwort generieren",
+        "generating": "Generiere Antwort..."
+      }
+    }
+  }
+}

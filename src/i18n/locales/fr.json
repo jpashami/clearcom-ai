@@ -1,0 +1,83 @@
+{
+  "common": {
+    "signIn": "Se connecter",
+    "signOut": "Se déconnecter",
+    "home": "Accueil",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "createAccount": "Créer un compte",
+    "forgotPassword": "Mot de passe oublié ?",
+    "backToHome": "Retour à l'accueil",
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "copy": "Copier",
+    "copied": "Copié !",
+    "clear": "Tout effacer",
+    "support": "Besoin d'aide ? Contactez-nous à",
+    "copyright": "© 2025 Novalycs Inc. Tous droits réservés."
+  },
+  "landing": {
+    "title": "Transformez votre écriture avec l'intelligence artificielle",
+    "subtitle": "Améliorez vos textes et rédigez des réponses par e-mail parfaites avec notre assistant IA avancé. Découvrez l'avenir de la communication professionnelle.",
+    "features": {
+      "textEnhancement": {
+        "title": "Amélioration de texte",
+        "description": "Peaufinez votre écriture avec des suggestions alimentées par l'IA qui améliorent la clarté, la grammaire et le style tout en conservant votre voix unique."
+      },
+      "emailResponse": {
+        "title": "Réponses e-mail intelligentes",
+        "description": "Générez des réponses professionnelles par e-mail en quelques secondes. Parfait pour la communication professionnelle et le service client."
+      }
+    },
+    "requestAccess": {
+      "title": "Demander un accès anticipé",
+      "placeholder": "Entrez votre adresse e-mail",
+      "button": "Demander l'accès",
+      "success": "Demande envoyée ! Nous vous contacterons bientôt."
+    }
+  },
+  "dashboard": {
+    "title": "Agent IA ClearCom",
+    "tabs": {
+      "enhance": "Amélioration de texte",
+      "email": "Réponse e-mail"
+    },
+    "tone": {
+      "label": "Sélectionner le ton",
+      "formal": "Formel",
+      "semiFormal": "Semi-formel",
+      "informal": "Informel"
+    },
+    "textEnhancement": {
+      "input": {
+        "label": "Votre texte",
+        "placeholder": "Entrez votre texte ici pour améliorer sa grammaire et sa fluidité..."
+      },
+      "output": {
+        "label": "Texte amélioré"
+      },
+      "button": {
+        "enhance": "Améliorer le texte",
+        "enhancing": "Amélioration en cours..."
+      }
+    },
+    "emailResponse": {
+      "original": {
+        "label": "E-mail original",
+        "placeholder": "Collez l'e-mail auquel vous souhaitez répondre..."
+      },
+      "draft": {
+        "label": "Vos points/idées de brouillon",
+        "placeholder": "Entrez vos points ou idées pour la réponse..."
+      },
+      "response": {
+        "label": "Réponse"
+      },
+      "button": {
+        "generate": "Générer une réponse",
+        "generating": "Génération en cours..."
+      }
+    }
+  }
+}

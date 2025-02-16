@@ -1,12 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { KeyRound, ArrowLeft } from 'lucide-react';
-import { createClient } from '@supabase/supabase-js';
-
-const supabase = createClient(
-  import.meta.env.VITE_SUPABASE_URL as string,
-  import.meta.env.VITE_SUPABASE_ANON_KEY as string
-);
+import supabase from '../lib/supabase';
 
 export default function ResetPassword() {
   const navigate = useNavigate();
@@ -19,6 +14,11 @@ export default function ResetPassword() {
 
   useEffect(() => {
     const handlePasswordRecovery = async () => {
+      if (!supabase) {
+        setError('Authentication service is not available. Please try again later.');
+        return;
+      }
+
       try {
         // Get the access token from the URL hash
         const hash = location.hash;
@@ -56,6 +56,12 @@ export default function ResetPassword() {
     e.preventDefault();
     setError('');
     setLoading(true);
+
+    if (!supabase) {
+      setError('Authentication service is not available. Please try again later.');
+      setLoading(false);
+      return;
+    }
 
     if (newPassword !== confirmPassword) {
       setError('Passwords do not match');
@@ -140,7 +146,7 @@ export default function ResetPassword() {
           <button
             type="submit"
             disabled={loading}
-            className="w-full py-2 px-4 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition-colors disabled:opacity-50 flex items-center justify-center gap-2"
+            className="w-full py-2 px-4 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring -offset-2 transition-colors disabled:opacity-50 flex items-center justify-center gap-2"
           >
             <KeyRound className="w-4 h-4" />
             {loading ? 'Resetting...' : 'Reset Password'}

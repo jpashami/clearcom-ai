@@ -1,0 +1,103 @@
+{
+  "common": {
+    "signIn": "Sign In",
+    "signOut": "Sign Out",
+    "home": "Home",
+    "email": "Email",
+    "password": "Password",
+    "createAccount": "Create Account",
+    "forgotPassword": "Forgot password?",
+    "backToHome": "Back to Home",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "clear": "Clear All",
+    "support": "Need help? Contact us at",
+    "copyright": "© 2025 Novalycs Inc. All rights reserved."
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "signingIn": "Signing in..."
+    },
+    "signup": {
+      "title": "Create Account",
+      "creatingAccount": "Creating Account...",
+      "passwordTooShort": "Password must be at least 6 characters long",
+      "checkEmail": "Check your email for the confirmation link!",
+      "haveAccount": "Already have an account? Sign In"
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "send": "Send Reset Instructions",
+      "sending": "Sending...",
+      "success": "Password reset instructions have been sent to your email.",
+      "backToLogin": "Back to Login"
+    }
+  },
+  "landing": {
+    "title": "Transform Your Writing with AI-Powered Intelligence",
+    "subtitle": "Enhance your text and craft perfect email responses with our advanced AI assistant. Experience the future of professional communication.",
+    "features": {
+      "textEnhancement": {
+        "title": "Text Enhancement",
+        "description": "Polish your writing with AI-powered suggestions that improve clarity, grammar, and style while maintaining your unique voice."
+      },
+      "emailResponse": {
+        "title": "Smart Email Responses",
+        "description": "Generate professional email responses in seconds. Perfect for business communication and customer service."
+      }
+    },
+    "requestAccess": {
+      "title": "Request Early Access",
+      "placeholder": "Enter your email address",
+      "button": "Request Access",
+      "success": "Request sent! We'll be in touch soon."
+    }
+  },
+  "dashboard": {
+    "title": "ClearCom AI Agent",
+    "tabs": {
+      "enhance": "Text Enhancement",
+      "email": "Email Response"
+    },
+    "tone": {
+      "label": "Select Tone",
+      "formal": "Formal",
+      "semiFormal": "Semi-formal",
+      "informal": "Informal"
+    },
+    "textEnhancement": {
+      "input": {
+        "label": "Your Text",
+        "placeholder": "Enter your text here to enhance its grammar and fluency..."
+      },
+      "output": {
+        "label": "Enhanced Text"
+      },
+      "button": {
+        "enhance": "Enhance Text",
+        "enhancing": "Enhancing..."
+      }
+    },
+    "emailResponse": {
+      "original": {
+        "label": "Original Email",
+        "placeholder": "Paste the email you want to respond to..."
+      },
+      "draft": {
+        "label": "Your Draft Points/Ideas",
+        "placeholder": "Enter your draft points or ideas for the response..."
+      },
+      "response": {
+        "label": "Response"
+      },
+      "button": {
+        "generate": "Generate Response",
+        "generating": "Generating Response..."
+      }
+    }
+  }
+}
